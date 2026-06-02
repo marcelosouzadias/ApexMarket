@@ -52,7 +52,7 @@ Serve como base para aprendizado de boas práticas de desenvolvimento backend e 
 
 ---
 
-## 🏗️ Arquitetura
+## 🏗️ [Arquitetura](./docs/arquitetura.md)
 
 - **Backend (Python + SQLAlchemy + MySQL)**
   - Classe `Cliente`
@@ -98,7 +98,7 @@ Serve como base para aprendizado de boas práticas de desenvolvimento backend e 
 ┃ ┣ 📄 diagrama_classes.png
 ┃ ┣ 📄 diagrama_casos_uso.png
 ┃ ┣ 📄 diagrama_sequencia.png
-┃ ┗ 📄 [arquitetura.md](./docs/arquitetura.md)
+┃ ┗ 📄 arquitetura.md
 ┣ 📄 requirements.txt
 ┗ 📄 README.md
 ```
