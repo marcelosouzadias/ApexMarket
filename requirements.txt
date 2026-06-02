@@ -1,0 +1,17 @@
+# Framework para API REST
+Flask==3.0.0
+
+# ORM para modelagem orientada a objetos
+SQLAlchemy==2.0.30
+
+# Driver para conexão com MySQL
+mysqlclient==2.2.4
+
+# Alternativa: PyMySQL (caso prefira)
+PyMySQL==1.1.0
+
+# Ferramenta de migração de banco de dados
+alembic==1.13.1
+
+# Testes automatizados
+pytest==8.2.0

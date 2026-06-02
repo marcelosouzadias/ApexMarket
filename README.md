@@ -98,7 +98,7 @@ Serve como base para aprendizado de boas práticas de desenvolvimento backend e 
 ┃ ┣ 📄 diagrama_classes.png
 ┃ ┣ 📄 diagrama_casos_uso.png
 ┃ ┣ 📄 diagrama_sequencia.png
-┃ ┗ 📄 arquitetura.md
+┃ ┗ 📄 [arquitetura.md](./docs/arquitetura.md)
 ┣ 📄 requirements.txt
 ┗ 📄 README.md
 ```
