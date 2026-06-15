@@ -55,13 +55,16 @@ Serve como base para aprendizado de boas práticas de desenvolvimento backend e 
 
 ## 🏗️ [Arquitetura](./docs/arquitetura.md)
 
-- **Backend (Python + SQLAlchemy + MySQL)**
-  - Classe `Cliente`
-  - Classe `Endereco` (relacionada 1:N com Cliente)
-  - Classe `Telefone` (relacionada 1:N com Cliente)
-  - Classe `Produto`
-  - Classe `Venda`
-  - Classe `ItemVenda` (para permitir múltiplos produtos em uma venda)
+O sistema segue uma arquitetura **modular e orientada a objetos**, dividida em camadas com responsabilidades bem definidas:
+
+| Camada | Responsabilidade |
+|--------|------------------|
+| **App (`app.py`)** | Ponto de entrada da aplicação. Inicializa o Flask, conecta o banco e registra as rotas. |
+| **Controller** | Define as rotas da API e recebe requisições HTTP. Interage com os serviços e retorna respostas JSON. |
+| **Service** | Aplica regras de negócio e validações antes de persistir ou buscar dados. |
+| **Repository** | Executa operações CRUD no banco via SQLAlchemy. Traduz objetos Python em registros MySQL. |
+| **Model** | Define as classes e relacionamentos que representam as tabelas do banco. |
+| **Config** | Centraliza parâmetros de conexão e inicialização do banco de dados. |
 
 ---
 
